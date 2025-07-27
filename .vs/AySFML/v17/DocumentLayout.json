@@ -1,0 +1,365 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Common.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Common.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Boss.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Boss.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Boss.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Boss.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Coin.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Coin.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Pet.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Pet.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Animation.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Animation.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SoundEffectManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\SoundEffectManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\ResourceManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\ResourceManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Pet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Pet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SoundManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\SoundManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SceneManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\SceneManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Bullet.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Bullet.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Background.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0CCA331-78EC-453A-BD8C-1C1419DC30D7}|AyPro\\AyPro.vcxproj|solutionrelative:AyPro\\Background.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Coin.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Coin.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Coin.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Coin.hpp",
+              "RelativeToolTip": "AyPro\\Coin.hpp",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:32:45.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Player.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Player.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Player.hpp",
+              "RelativeToolTip": "AyPro\\Player.hpp",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAUwGkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-20T15:22:02.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Boss.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Boss.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Boss.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Boss.hpp",
+              "RelativeToolTip": "AyPro\\Boss.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:37:12.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Common.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Common.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Common.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Common.hpp",
+              "RelativeToolTip": "AyPro\\Common.hpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:15:56.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Player.cpp",
+              "RelativeDocumentMoniker": "AyPro\\Player.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Player.cpp",
+              "RelativeToolTip": "AyPro\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-21T13:40:56.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Game.cpp",
+              "RelativeDocumentMoniker": "AyPro\\Game.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Game.cpp",
+              "RelativeToolTip": "AyPro\\Game.cpp",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAqwF8BAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-21T13:34:07.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Boss.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Boss.cpp",
+              "RelativeDocumentMoniker": "AyPro\\Boss.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Boss.cpp",
+              "RelativeToolTip": "AyPro\\Boss.cpp",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAkwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-26T05:16:21.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Game.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Game.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Game.hpp",
+              "RelativeToolTip": "AyPro\\Game.hpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:07:15.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Enemy.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Enemy.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Enemy.hpp",
+              "RelativeToolTip": "AyPro\\Enemy.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:28:00.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pet.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Pet.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Pet.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Pet.hpp",
+              "RelativeToolTip": "AyPro\\Pet.hpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:35:40.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Animation.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Animation.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Animation.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Animation.hpp",
+              "RelativeToolTip": "AyPro\\Animation.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:26:35.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SoundEffectManager.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SoundEffectManager.hpp",
+              "RelativeDocumentMoniker": "AyPro\\SoundEffectManager.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SoundEffectManager.hpp",
+              "RelativeToolTip": "AyPro\\SoundEffectManager.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-24T13:37:59.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResourceManager.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\ResourceManager.hpp",
+              "RelativeDocumentMoniker": "AyPro\\ResourceManager.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\ResourceManager.hpp",
+              "RelativeToolTip": "AyPro\\ResourceManager.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:25:20.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\main.cpp",
+              "RelativeDocumentMoniker": "AyPro\\main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\main.cpp",
+              "RelativeToolTip": "AyPro\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-08T18:44:38.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Pet.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Pet.cpp",
+              "RelativeDocumentMoniker": "AyPro\\Pet.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Pet.cpp",
+              "RelativeToolTip": "AyPro\\Pet.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-22T20:51:52.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResourceManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\ResourceManager.cpp",
+              "RelativeDocumentMoniker": "AyPro\\ResourceManager.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\ResourceManager.cpp",
+              "RelativeToolTip": "AyPro\\ResourceManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-27T04:52:02.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "AyPro\\SceneManager.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SceneManager.cpp",
+              "RelativeToolTip": "AyPro\\SceneManager.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-27T02:46:35.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SoundManager.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SoundManager.hpp",
+              "RelativeDocumentMoniker": "AyPro\\SoundManager.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SoundManager.hpp",
+              "RelativeToolTip": "AyPro\\SoundManager.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-24T13:35:16.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SceneManager.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SceneManager.hpp",
+              "RelativeDocumentMoniker": "AyPro\\SceneManager.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\SceneManager.hpp",
+              "RelativeToolTip": "AyPro\\SceneManager.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:38:41.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Bullet.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Bullet.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Bullet.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Bullet.hpp",
+              "RelativeToolTip": "AyPro\\Bullet.hpp",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowDoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:23:10.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Background.hpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Background.hpp",
+              "RelativeDocumentMoniker": "AyPro\\Background.hpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CrazyBird\\AyPro\\Background.hpp",
+              "RelativeToolTip": "AyPro\\Background.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-19T11:13:40.453Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
