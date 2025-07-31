@@ -20,7 +20,7 @@ struct InputState
     bool left = false;           // A
     bool right = false;          // D
     bool invincibleKey = false;  // F
-    bool ultimateKey = false;    // R
+    bool ultimateKey = false;    // Rm
 };
 
 using namespace std;
@@ -41,9 +41,9 @@ constexpr int   COINS_FOR_PET1 = 20;
 constexpr int   COINS_FOR_PET2 = 40; 
 constexpr int   COINS_FOR_ULTIMATE = 50; 
 constexpr int   COINS_FOR_INVINCIBLE = 50; 
-constexpr int   COINS_FOR_BOSS_ACTIVE = 1000; 
-constexpr float ULTIMATE_DURATION = 15.f; 
-constexpr float INVINCIBLE_DURATION = 15.f;
-constexpr int   BOSS_HIT_REQUIRED = 700;
+constexpr int   COINS_FOR_BOSS_ACTIVE = 500; 
+constexpr float ULTIMATE_DURATION = 8.f; 
+constexpr float INVINCIBLE_DURATION = 8.f;
+constexpr int   BOSS_HIT_REQUIRED = 500;
 constexpr float PI = 3.14159f; 
 constexpr float HIT_DURATION = 2.f; 

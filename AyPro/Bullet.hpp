@@ -6,19 +6,14 @@
 class Bullet 
 {
 public:
-    sf::Sprite      s;
-    sf::Vector2f    v;
-    bool            alive = true; 
+    sf::Sprite                  s;
+    sf::Vector2f                v;
+    bool                        alive = true; 
 
     std::unique_ptr<Animation>  anim;
     int                         frameCount = 1;
 
-    Bullet(ResourceManager& rm, 
-        const std::string& file, 
-        const sf::Vector2f& pos, 
-        const sf::Vector2f& vel, 
-        int frames = 1, 
-        float frameTime = 0.f) 
+    Bullet(ResourceManager& rm, const std::string& file, const sf::Vector2f& pos, const sf::Vector2f& vel, int frames = 1, float frameTime = 0.f) 
         : v(vel), frameCount(frames) 
     {
         sf::Texture& tex = rm.get(file);

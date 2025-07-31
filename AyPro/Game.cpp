@@ -13,6 +13,7 @@ inline static bool checkCollision(const sf::Sprite& a, const sf::Sprite& b)
     return a.getGlobalBounds().intersects(b.getGlobalBounds());
 } 
 
+// parallax scrolling : farBg, midBg, nearBg 순으로 배경을 그리며 속도 차이를 둠 
 Game::Game(ResourceManager& r) 
     : window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Shooting Bird")
     , rm(r)
@@ -59,10 +60,10 @@ Game::Game(ResourceManager& r)
     scoreText.setStyle(sf::Text::Bold);
 
     // 우측 상단에 놓기
-    const float margin = 25.f;                       // 화면 테두리 여백
+    const float margin = 30.f;                       // 화면 테두리 여백
     scoreText.setString("Score: 0");                 // 초기 문자열    
     sf::FloatRect rect = scoreText.getLocalBounds();
-    scoreText.setOrigin(rect.width, 0.f);
+    scoreText.setOrigin(rect.width / 2.f, rect.height / 2.f);
     scoreText.setPosition(WINDOW_WIDTH / 2.f, margin); 
 }
 
@@ -186,29 +187,30 @@ void Game::handleCollisions()
             break;
 
 		// 플레이어 총알과 보스 충돌 처리
-        if (b.alive && checkCollision(b.s, boss.s))
+        if (coinCount > COINS_FOR_BOSS_ACTIVE && b.alive && checkCollision(b.s, boss.s))
         {
             b.alive = false;
             boss.hits++; 
 			coinCount += 2; // 보스에게 총알이 맞을 때마다 코인 2개 추가 즉 점수 추가 
 
-            // 100 히트마다 카메라 흔들림
-            if (boss.hits % 100 == 0)
-                triggerCameraShake(0.5f, 5.f);
+            // 200 히트마다 카메라 흔들림
+            if (boss.hits > 150 && boss.hits % 200 == 0)
+                triggerCameraShake(0.7f, 7.f);
         }
 
         if (boss.hits >= BOSS_HIT_REQUIRED)
         {
             // Boss 클래스에 정의된 clear() 사용
-            boss.clear();
-
+            boss.clear(); 
+		
             // 보스 처치 보상
-            for (int i = 0; i < 50; ++i) 
+            for (int i = 0; i < 100; ++i) 
             {
-                sf::Vector2f pos = boss.s.getPosition() + sf::Vector2f(std::rand() % 100 - 100, std::rand() % 100 - 100);
+                sf::Vector2f pos = boss.s.getPosition() + sf::Vector2f(std::rand() % 200 - 100, std::rand() % 200 - 100);
                 coins.emplace_back(rm, pos);
             }
 			
+			coinCount += 100; // 보스 처치 보상으로 코인 50개 추가 
 			sem.playAsync("congrats"); // 보스 처치 축하 사운드 효과 재생
             break;
         }
@@ -261,12 +263,7 @@ void Game::bossUpdate(float dt)
     else if (boss.active)
     {
         boss.update(dt, rm);
-        boss.updateHealthBar();
-                
-        if (boss.s.getPosition().x < WINDOW_WIDTH - 200.f)
-        {
-            boss.s.setPosition(WINDOW_WIDTH - 200.f, boss.s.getPosition().y);
-        }
+        boss.updateHealthBar();     
     }
 } 
 
@@ -338,7 +335,7 @@ void Game::petUpdate(float dt)
 void Game::alarmBos(float dt)
 {
     // 보스 등장 전에 경고음 울리기 
-    if (coinCount > COINS_FOR_BOSS_ACTIVE - 100 && alarmFlag)
+    if (coinCount > COINS_FOR_BOSS_ACTIVE - 50 && alarmFlag)
     {
         for (int i = 0; i < 3; i++)
         {
@@ -349,7 +346,7 @@ void Game::alarmBos(float dt)
     }
 
     // 보스 경고 오버레이 깜박임 처리 
-    if (coinCount > COINS_FOR_BOSS_ACTIVE - 100 && !boss.active && !boss.cleared)
+    if (coinCount > COINS_FOR_BOSS_ACTIVE - 50 && !boss.active && !boss.cleared)
     {
         blinkTimer += deltaTime; // deltaTime은 프레임 간 시간 간격
 

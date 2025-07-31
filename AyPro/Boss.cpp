@@ -2,6 +2,7 @@
 
 static constexpr float HEALTH_BAR_OFFSET_Y = 100.f;   
 
+/* 
 void Boss::chooseRandomDirection() 
 { 
     // C++11부터 도입된 랜덤 분포 클래스 템플릿 중 하나입니다. 
@@ -23,24 +24,33 @@ void Boss::chooseRandomDirection()
     moveDuration = std::uniform_real_distribution<float>(1.f, 3.f)(rng);
     moveTimer = 0.f;
 } 
+*/ 
 
-void Boss::chooseRandomDirectionTowardsPlayer(const sf::Vector2f& playerPos) 
+void Boss::chooseRandomDirectionTowardsPlayer(const sf::Vector2f& playerPos)
 {
+    // 1) 랜덤 방향 생성 및 정규화
     std::uniform_real_distribution<float> dist(-1.f, 1.f);
-
     sf::Vector2f randomDir{ dist(rng), dist(rng) };
     float lenR = std::sqrt(randomDir.x * randomDir.x + randomDir.y * randomDir.y);
     randomDir /= (lenR > 0 ? lenR : 1.f);
 
+    // 2) 플레이어 방향 계산 및 정규화
     sf::Vector2f toPlayer = playerPos - s.getPosition();
     float lenP = std::sqrt(toPlayer.x * toPlayer.x + toPlayer.y * toPlayer.y);
     toPlayer /= (lenP > 0 ? lenP : 1.f);
 
-    // 랜덤 60% + 플레이어 쪽 40%
-    moveDir = randomDir * 0.6f + toPlayer * 0.4f;
-    float len = std::sqrt(moveDir.x * moveDir.x + moveDir.y * moveDir.y);
-    moveDir /= len;
+    // 3) 20% 확률로 플레이어 방향
+    std::bernoulli_distribution choosePlayer(0.2f);
+    if (choosePlayer(rng)) 
+    {
+        moveDir = toPlayer;
+    }
+    else 
+    {
+        moveDir = randomDir;
+    }
 
+    // 4) 이동 지속시간(1~3초)과 타이머 초기화
     moveDuration = std::uniform_real_distribution<float>(1.f, 3.f)(rng);
     moveTimer = 0.f;
 }
@@ -103,9 +113,10 @@ void Boss::start()
 void Boss::clear()
 {
     active = false;
-    cleared = true;   // 한 번 클리어 처리
+    cleared = true;         // 한 번 클리어 처리
     hits = 0;
-    bullets.clear();  // 화면에 남은 총알 전부 제거
+	hasEntered = false;     // 다시 진입 가능하도록 초기화 
+    bullets.clear();        // 화면에 남은 총알 전부 제거
 }
 
 void Boss::update(float dt, ResourceManager& rm)
@@ -113,26 +124,32 @@ void Boss::update(float dt, ResourceManager& rm)
     if (!active) return;
 
     // 진입 로직: 화면 안쪽으로 들어오기 
-    if (!hasEntered) {
+    if (!hasEntered) 
+    {
         constexpr float ENTER_SPEED = 200.f;
         float targetX = WINDOW_WIDTH - s.getGlobalBounds().width / 2 - 50.f;
 
         // 목표 지점에 도달 전까지 계속 왼쪽으로 이동
-        if (s.getPosition().x > targetX) {
+        if (s.getPosition().x > targetX) 
+        {
             s.move(-ENTER_SPEED * dt, 0.f);
             updateHealthBar();
-            return;  // 진입 완료 전에는 총알/랜덤 이동 무시
+            return;  // 진입 완료 전에는 총알/보스 이동 무시 
         }
+
         hasEntered = true;  // 한 번만 진입 후 다음 프레임부터 진입 로직 생략
+		active = true;      // 진입 완료 후 활성화 
+        chooseRandomDirectionTowardsPlayer(player.getPosition());
     }
         
-    // Boss 총알 회오리 모양으로 발사 처리 부분
-    if (shootClock.getElapsedTime().asSeconds() > 0.5f)
+	// Boss 총알 회오리 모양으로 발사 처리 부분, 0.8초마다 
+    if (shootClock.getElapsedTime().asSeconds() > 0.8f)
     {
         shootClock.restart();
 
         // 반복 발사마다 패턴이 회전하도록 누적 각도 
-        static float rotationAngle = 0.f;
+        static float rotationAngle = 0.f; 
+        // 회전 속도 : 1초에 2바퀴 회전 
         constexpr float ROTATION_SPEED = PI * 4;      
         rotationAngle += ROTATION_SPEED * dt;
 
@@ -150,7 +167,7 @@ void Boss::update(float dt, ResourceManager& rm)
             // 방향 단위 벡터
             sf::Vector2f dir{ std::cos(ang), std::sin(ang) };
 
-            // 방사형 성분 + 접선 성분
+            // 방사형 성분 + 접선 성분(이 부분이 재밌는 부분: y값의 부호를 바꿔서 x에 넣고 x값을 y에 넣으면 반시계 방향 90도 회전값 즉 접선 벡터 성분이 된다.)
             sf::Vector2f vel = dir * RADIAL_SPEED + sf::Vector2f(-dir.y, dir.x) * SWIRL_SPEED; 
 
             bullets.emplace_back(rm, "boss_bullet.png", bp, vel, 1, 0.f);
@@ -161,7 +178,8 @@ void Boss::update(float dt, ResourceManager& rm)
     moveTimer += dt;
     if (moveTimer >= moveDuration) 
     {
-        chooseRandomDirectionTowardsPlayer(player.getPosition());
+        chooseRandomDirectionTowardsPlayer(player.getPosition()); 
+		moveTimer = 0.f;  // 타이머 초기화 
     }
 
     // 실제 이동
@@ -169,9 +187,12 @@ void Boss::update(float dt, ResourceManager& rm)
 
     // 화면 경계 안으로 클램프
     auto pos = s.getPosition();
-    auto half = s.getGlobalBounds().width / 2.f;
-    pos.x = std::clamp(pos.x, half, WINDOW_WIDTH - half);
-    pos.y = std::clamp(pos.y, half, WINDOW_HEIGHT - half);
+    auto halfWidth = s.getGlobalBounds().width / 2.f; 
+	auto halfHeight = s.getGlobalBounds().height / 2.f + 40.f;  
+	// x좌표는 왼쪽 경계(WINDOW_WIDTH / 3)와 오른쪽 경계(WINDOW_WIDTH - halfWidth) 사이로 제한 
+    pos.x = std::clamp(pos.x, WINDOW_WIDTH / 3.f, WINDOW_WIDTH - halfWidth); 
+	// y좌표는 상단 경계(halfHeight)와 하단 경계(WINDOW_HEIGHT - halfHeight) 사이로 제한 
+    pos.y = std::clamp(pos.y, halfHeight, WINDOW_HEIGHT - halfHeight);
     s.setPosition(pos);
     
     anim.update(dt); 

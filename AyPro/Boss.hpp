@@ -34,14 +34,14 @@ private:
     // 엔진 선언 및 시드 초기화 Random Number Generator의 약자 
     std::mt19937 rng{ std::random_device{}() }; 
 
-	bool hasEntered = false;           // 화면 안쪽으로 진입 완료 여부    
+	bool            hasEntered = false;  // 화면 안쪽으로 진입 완료 여부    
     // 위치 이동 관련
-    sf::Vector2f moveDir;      // 현재 이동 방향 (단위 벡터)
-    float moveTimer;           // 현재 방향으로 이동한 시간 누적
-    float moveDuration;        // 이 방향으로 이동할 총 시간
-    float moveSpeed;           // 이동 속도
+    sf::Vector2f    moveDir;             // 현재 이동 방향 (단위 벡터)
+    float           moveTimer;           // 현재 방향으로 이동한 시간 누적
+    float           moveDuration;        // 이 방향으로 이동할 총 시간
+    float           moveSpeed;           // 이동 속도
 
-    void chooseRandomDirection();  // 새 방향과 시간을 결정 
+    // void chooseRandomDirection();        // 새 방향과 시간을 결정 
     void chooseRandomDirectionTowardsPlayer(const sf::Vector2f& playerPos);
 }; 
 
