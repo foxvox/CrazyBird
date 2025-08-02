@@ -23,8 +23,8 @@ public:
         s1.move(-speed * dt, 0);
         s2.move(-speed * dt, 0);
         if (s1.getPosition().x <= -WINDOW_WIDTH)
-            s1.setPosition(s2.getPosition().x + WINDOW_WIDTH, 0);
-        if (s2.getPosition().x <= -WINDOW_WIDTH)
+            s1.setPosition(s2.getPosition().x + WINDOW_WIDTH, 0); 
+        if (s2.getPosition().x <= -WINDOW_WIDTH) 
             s2.setPosition(s1.getPosition().x + WINDOW_WIDTH, 0);    
     }
 

@@ -72,11 +72,11 @@ Boss::Boss(ResourceManager& rm, Player& _player)
     chooseRandomDirectionTowardsPlayer(player.getPosition());  
 }
 
-void Boss::initHealthBar(ResourceManager& rm)
+void Boss::initHealthBar(ResourceManager& rm) 
 {
-    barBack.setTexture(rm.get("bar1.png"));
-    barFill.setTexture(rm.get("bar2.png"));
-    // 초기 위치는 updateHealthBar()에서 매번 재설정
+    barBack.setTexture(rm.get("bar1.png")); 
+    barFill.setTexture(rm.get("bar2.png")); 
+    // 초기 위치는 updateHealthBar()에서 매번 재설정 
 }
 
 void Boss::updateHealthBar()

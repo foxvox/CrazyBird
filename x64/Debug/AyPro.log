@@ -1,0 +1,63 @@
+﻿  Background.hpp
+  Boss.cpp
+  Game.cpp
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Enemy.hpp(36,54): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Game.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,115): warning C4244: '인수': 'int'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,115): warning C4244:         with
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,115): warning C4244:         [
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,115): warning C4244:             T=float
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,115): warning C4244:         ]
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,90): warning C4244: '인수': 'int'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,90): warning C4244:         with
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,90): warning C4244:         [
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,90): warning C4244:             T=float
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Game.cpp(209,90): warning C4244:         ]
+  Game.hpp
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Enemy.hpp(36,54): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Game.hpp'을(를) 컴파일하는 중)
+  
+  main.cpp
+  Pet.cpp
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Enemy.hpp(36,54): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Pet.cpp'을(를) 컴파일하는 중)
+  
+  Player.cpp
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Enemy.hpp(36,54): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Player.cpp'을(를) 컴파일하는 중)
+  
+  ResourceManager.cpp
+  SceneManager.cpp
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\Enemy.hpp(36,54): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'SceneManager.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244: '인수': 'T'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:         with
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:         [
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:             T=int
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:         ]
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:         and
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:         [
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:             T=float
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,63): warning C4244:         ]
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244: '인수': 'T'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:         with
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:         [
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:             T=int
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:         ]
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:         and
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:         [
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:             T=float
+C:\Users\Administrator\Desktop\CrazyBird\AyPro\SceneManager.cpp(33,57): warning C4244:         ]
+  코드를 생성하고 있습니다...
+x64\Debug\Game.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+SceneManager.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Boss.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Game.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Pet.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Player.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Game.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B)
+Pet.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B)
+Player.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B)
+C:\Users\Administrator\Desktop\CrazyBird\x64\Debug\AyPro.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
